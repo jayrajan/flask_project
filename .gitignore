@@ -131,4 +131,6 @@ dmypy.json
 # environments
 flaskenv
 
+# venv requirements list
+requirements.txt
 
