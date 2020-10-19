@@ -3,9 +3,25 @@
         <title>form</title>
     </head>
     <body>
-        <form>
+        <form action="http://www.google.com" method="GET">
             <h1> Log In </h1>
             <h2> Please input your email and password</h2>
+
+            <label for="emailtag">Email</label>
+            <input id="emailtag" type="email" name="useremail" placeholder="Email">
+            <br>
+            <label for="passtag">Password</label>
+            <input id="passtag" type="password" name="password" placeholder="password">
+            <input type="submit" name="" value="Log-In">
+        </form>
+
+        <form method="GET">
+            <!-- In this form:
+                1. Linking radio buttons
+                2. Drop down menus
+                3. Text area inputs
+            -->
+            <h3> Do you own a dog? </h3>
         </form>
     </body>
 
