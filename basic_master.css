@@ -19,5 +19,14 @@ h4{
     background-repeat: no-repeat;
 } */
 
+/* div{
+    background: blue;
+    border: orange;
+    border-width: 20px;
+    border-style: solid;
+} */
 
-
+div{
+    background: blue;
+    border: red 10px solid
+}
