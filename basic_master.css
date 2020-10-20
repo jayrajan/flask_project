@@ -6,9 +6,9 @@ li{
     color: rgb(30, 200, 0)
 }
 
-p{
+/* p{
     color: yellow
-}
+} */
 
 h4{
     color: rgba(13, 90,140, 0.5)
@@ -38,10 +38,14 @@ span{
 
 .firstdiv{
     color: brown;
+    background: white;
+    border: none
 }
 
 .seconddiv{
     background-color: chocolate;
+    background: grey;
+    border: none
 }
 
 #firstid{
