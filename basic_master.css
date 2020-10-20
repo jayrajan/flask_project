@@ -30,3 +30,8 @@ div{
     background: blue;
     border: red 10px solid
 }
+
+span{
+    background: red;
+    color: black
+}
