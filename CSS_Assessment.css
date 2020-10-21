@@ -41,6 +41,11 @@ There is a textarea element with the id=textblock, give it the following propert
 * A width of 800px and a height of 400px
  */
 
+ #textblock{
+     border: 5px solid gray;
+     /* border-width: 800px 400px */
+ }
+
 
 /*Task # 7
 There is a link to Google on the page. Make this link red.*/
