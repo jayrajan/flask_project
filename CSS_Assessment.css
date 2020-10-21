@@ -57,3 +57,6 @@ a{
 /*Task # 9
 Finally, set all the font to be Aldrich font (or any other Google Font) */
 /* https://fonts.google.com/?selection.family=Aldrich */
+body{
+    font-family: 'Aldrich', sans-serif;
+}
