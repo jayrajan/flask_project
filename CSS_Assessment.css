@@ -27,7 +27,13 @@ h2{
 /*Task # 4
 Make all input tag boxes have a 5px solid darkblue border */
 /* https://www.w3schools.com/css/css_border.asp */
+#mail {
+    border: 5px solid darkblue;
+}
 
+#pass {
+    border: 5px solid darkblue;
+}
 
 /*Task # 6
 There is a textarea element with the id=textblock, give it the following properties:
