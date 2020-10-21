@@ -12,6 +12,9 @@ body{
 /*Task # 2
 Change the h1 to have a 4px solid black border*/
 /* And center the text. */
+h1{
+    border: black solid 4px;
+}
 
 
 
