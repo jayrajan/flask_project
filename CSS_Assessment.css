@@ -42,6 +42,8 @@ There is a textarea element with the id=textblock, give it the following propert
 
  #textblock{
      border: 5px solid gray;
+     width: 800px;
+     height: 400px;
      /* border-width: 800px 400px */
  }
 
