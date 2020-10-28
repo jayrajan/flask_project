@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr">
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form action="http://www.google.com" method="GET">
+            <h1> Log In </h1>
+            <h2> Please input your email and password</h2>
+
+            <label for="emailtag">Email</label>
+            <input id="emailtag" type="email" name="useremail" placeholder="Email">
+            <br>
+            <label for="passtag">Password</label>
+            <input id="passtag" type="password" name="password" placeholder="password">
+            <input type="submit" name="" value="Log-In">
+        </form>
+
+        <form method="GET">
+            <!-- In this form:
+                1. Linking radio buttons
+                2. Drop down menus
+                3. Text area inputs
+            -->
+            <h3> Do you own a dog? </h3>
+            <label for="yesname">Yes</label>
+            <input type="radio" id="yesname" name="Dog choice" value="Yes">
+            
+            <label for="noname"> No</label>
+            <input type="radio" id="noname" name="Dog choice" value="No">
+
+            <p>How clean is your home ? (1-3)</p>
+            <select name="stars">
+                <option value="Great">3</option>
+                <option value="Good">2</option>
+                <option value="Bad">1</option>
+            </select>
+
+            <p> any other comments </p>
+            <textarea name="comments" rows="8" cols="30"></textarea>
+
+            <input type="submit" name="feedback" value="Submit Feedback">
+
+
+        </form>
+    </body>
+
+</html>
