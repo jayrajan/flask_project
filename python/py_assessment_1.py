@@ -14,17 +14,21 @@ s = 'flask'
 
 # Use indexing to print out the following:
 # 'f'
-
+print(s[0])
 # 's'
+print(s[-2])
 
 # 'ask'
+print(s[2:])
 
 # 'las'
+print(s[1:4])
 
 # 'k'
+print(s[-1:])
 
 # Bonus: Use indexing to reverse the string
-
+print(s[::-1])
 
 ###############
 ## Problem 2 ##
