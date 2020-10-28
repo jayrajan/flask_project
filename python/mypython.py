@@ -27,8 +27,8 @@ myList = [1,2,3,3,3,4,4,4,1,2,33,44,2,2,2]
 print(set(myList))
 
 # iterating a list of tuples
-
+# Tuple unpacking
 myitem = [('a',1), ('b',2), ('c',3)]
-for (item1,item2) in myitem:
-    print(item1)
-    print(item2)
+for (letter,num) in myitem:
+    print(letter)
+    print(num)
