@@ -7,5 +7,8 @@
 
 
 def compare_len(s1,s2):
-    # Code Here
-    pass
+    diff = abs(len(s1) - len(s2))
+    return diff
+
+a = compare_len('jay','rajan')
+print(a)
