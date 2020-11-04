@@ -8,5 +8,9 @@
 
 def sum_or_max(mylist):
 
-    # Code Here
-    pass
+    if len(mylist)%2 == 0:
+        print(sum(mylist))
+    else:
+        print(max(mylist))
+
+sum_or_max([1,2,3,4])
