@@ -41,14 +41,26 @@ for (letter,num) in myitem:
 
 #  OOP 
 
-class Student():
+class University():
+    def __init__(self, city):
+        # print('University created')
+        self.city = city
+    
+    def register(self):
+        print('University registered')
+
+    def government_list(self):
+        print('University added to government list')
+
+class Student(University):
 
     # class object attributes
     university = 'UoS'
     department = 'acse'
 
     # methods
-    def __init__(self,id,firstname,secondname):
+    def __init__(self,city,id,firstname,secondname):
+        University.__init__(self, city)
         self.id = id
         self.firstname = firstname
         self.secondname = secondname
@@ -57,7 +69,7 @@ class Student():
         print('student Id:',self.id)
 
 
-a = Student(id=10102,firstname='J',secondname='Rajan')
-b = Student(id=10103,firstname='A',secondname='Philip')
-a.student_id()
-b.student_id()
+a = Student(city='sheffield', id=10102,firstname='J',secondname='Rajan')
+b = Student(city='sheffield', id=10103,firstname='A',secondname='Philip')
+
+b.register()
