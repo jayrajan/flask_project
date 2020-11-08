@@ -32,3 +32,29 @@ myitem = [('a',1), ('b',2), ('c',3)]
 for (letter,num) in myitem:
     print(letter)
     print(num)
+
+# SCOPE - LEGB Rule
+# LOCAL
+# ENCLOSING
+# GLOBAL
+# BUILT-IN
+
+#  OOP 
+
+class Student():
+
+    # class object attributes
+    university = 'UoS'
+
+    # methods
+    def __init__(self,id,firstname,secondname):
+        self.id = id
+        self.firstname = firstname
+        self.secondname = secondname
+
+    def student_id(self):
+        print('student Id:',self.id)
+
+
+a = Student(id=10102,firstname='J',secondname='Rajan')
+a.student_id()
