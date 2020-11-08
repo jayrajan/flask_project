@@ -45,6 +45,7 @@ class Student():
 
     # class object attributes
     university = 'UoS'
+    department = 'acse'
 
     # methods
     def __init__(self,id,firstname,secondname):
@@ -57,4 +58,6 @@ class Student():
 
 
 a = Student(id=10102,firstname='J',secondname='Rajan')
+b = Student(id=10103,firstname='A',secondname='Philip')
 a.student_id()
+b.student_id()
