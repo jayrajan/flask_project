@@ -22,45 +22,54 @@
 
 
 class Account:
-    pass
+    def __init__(self,owner,balance):
+        print('account created')
+    
+    def deposit(self):
+        pass
 
-
-# 1. Instantiate the class
-acct1 = Account('Jose',100)
-
-
-# 2. Print the object
-print(acct1)
-
-
-
-
-# 3. Show the account owner attribute
-acct1.owner
+    def withdraw(self):
+        pass
 
 
 
 
-# 4. Show the account balance attribute
-acct1.balance
+# # 1. Instantiate the class
+# acct1 = Account('Jose',100)
+
+
+# # 2. Print the object
+# print(acct1)
 
 
 
 
-# 5. Make a series of deposits and withdrawals
-acct1.deposit(50)
+# # 3. Show the account owner attribute
+# acct1.owner
 
 
 
 
-acct1.withdraw(75)
+# # 4. Show the account balance attribute
+# acct1.balance
 
 
 
 
-# 6. Make a withdrawal that exceeds the available balance
-acct1.withdraw(500)
+# # 5. Make a series of deposits and withdrawals
+# acct1.deposit(50)
 
 
 
-# ## Good job!
+
+# acct1.withdraw(75)
+
+
+
+
+# # 6. Make a withdrawal that exceeds the available balance
+# acct1.withdraw(500)
+
+
+
+# # ## Good job!
