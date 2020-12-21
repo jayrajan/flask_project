@@ -83,9 +83,14 @@ class Circle():
         self.radius = radius
 
     def area(self):
-        return     
+        return self.radius * self.radius * self.pi 
+
+    def circumference(self):
+        return 2 * self.pi * self.radius  
     
 myCircle = Circle(radius=20)
 print(myCircle.radius)
+print(myCircle.area())
+print(myCircle.circumference())
 
 
