@@ -73,3 +73,19 @@ a = Student(city='sheffield', id=10102,firstname='J',secondname='Rajan')
 b = Student(city='sheffield', id=10103,firstname='A',secondname='Philip')
 
 b.register()
+
+
+class Circle():
+    # Object Class atrribute
+    pi = 3.14159265359
+
+    def __init__(self,radius=1):
+        self.radius = radius
+
+    def area(self):
+        return     
+    
+myCircle = Circle(radius=20)
+print(myCircle.radius)
+
+
