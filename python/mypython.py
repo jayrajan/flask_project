@@ -68,18 +68,22 @@ class Student(University):
     def student_id(self):
         print('student Id:',self.id)
 
+class Math():
 
-a = Student(city='sheffield', id=10102,firstname='J',secondname='Rajan')
-b = Student(city='sheffield', id=10103,firstname='A',secondname='Philip')
+    def __init__(self,shape):
+        self.shape = shape
+    
+    def report_shapes(self):
+        # print(f'the shape selected is {self.shape}')
+        print(f'the shape selected is {self.shape}')
 
-b.register()
 
-
-class Circle():
+class Circle(Math):
     # Object Class atrribute
     pi = 3.14159265359
 
-    def __init__(self,radius=1):
+    def __init__(self,shape,radius=1):
+        Math.__init__(self,shape)
         self.radius = radius
 
     def area(self):
@@ -87,10 +91,20 @@ class Circle():
 
     def circumference(self):
         return 2 * self.pi * self.radius  
-    
-myCircle = Circle(radius=20)
-print(myCircle.radius)
-print(myCircle.area())
-print(myCircle.circumference())
+
+    def report_shapes(self):
+        print('report_shapes is now overwritten')
+
+    def __repr__(self):
+        return f'Shape: {self.shape}, Radius: {self.radius}'
+   
+
+
+myCircle = Circle(shape='Circle',radius=20)
+print(myCircle)
+# print(myCircle.radius)
+# print(myCircle.area())
+# print(myCircle.circumference())
+# print(myCircle.report_shapes())
 
 
