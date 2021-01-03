@@ -15,6 +15,11 @@ def home():
 def about():
     return '<h1> About Us page</h1>'
 
+# dynamic routing
+@app.route('/user/<name>')
+def user(name):
+    return '<h1> This is user {} </h1>' .format(name)
+
 if __name__ == "__main__":
     app.run()
 
