@@ -21,5 +21,5 @@ def user(name):
     return '<h1> This is user {} </h1>' .format(name)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
