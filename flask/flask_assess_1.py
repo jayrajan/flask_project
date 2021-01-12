@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Decorators
 @app.route('/')
-def index:
+def index():
     return ('<h1> Welcome! Go to puppy_latin/name to see name in puppy latin </h1>')
 
 @app.route('/puppy_latin/<name>')
