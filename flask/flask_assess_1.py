@@ -13,7 +13,7 @@ def index:
 @app.route('/puppy_latin/<name>')
 def puppy_latin(name):
     latin_name = name
-    return ('<h2> Hi <name> ! Your puppy latin name is <latin_name> </h2>')
+    return ('Hi {} ! Your puppy latin name is {} .format(name, latin_name)')
 
 if __name__='__main__':
     app.run()
