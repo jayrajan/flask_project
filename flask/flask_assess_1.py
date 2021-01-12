@@ -15,6 +15,6 @@ def puppy_latin(name):
     latin_name = name
     return ('Hi {} ! Your puppy latin name is {} .format(name, latin_name)')
 
-if __name__='__main__':
+if __name__ == '__main__':
     app.run()
 
