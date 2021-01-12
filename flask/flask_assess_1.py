@@ -12,7 +12,11 @@ def index():
 
 @app.route('/puppy_latin/<name>')
 def puppy_latin(name):
-    latin_name = name
+    if name[-1:] == 'y':
+        latin_name=name[0:-1]+'iful'
+
+    else:
+        latin_name=name+'y'
 
     return ('Hi {} ! Your puppy latin name is {} '.format(name, latin_name))
 
