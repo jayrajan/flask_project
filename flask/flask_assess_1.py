@@ -20,6 +20,13 @@ def puppy_latin(name):
 
     return ('<h1> Hi {} ! Your puppy latin name is {} </h1>'.format(name, latin_name))
 
+@app.route('puppy_name_caps/<name>')
+def puppy_name_caps(name):
+    name_caps = name.upper()
+
+    return ('the puppy name in caps is: {}'.format(name_caps))
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
