@@ -7,6 +7,11 @@
     <body>
         <h1> Welcome to {{ name }}'s website</h1>
         <h2> I have built this using Flask </h2>
+        {% if user_logged_in %}
+        <p> {{name}} have logged in successfully</p>
+        {% else %}
+        <p> Please log back in </p>
+        {% endif %}
 
     </body>
 
