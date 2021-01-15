@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    name = 'Jay'
+    name = 'Jay Rajan'
     user_logged_in = False
     return render_template('index.html', name=name, user_logged_in=user_logged_in)
 
