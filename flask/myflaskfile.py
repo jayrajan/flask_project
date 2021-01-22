@@ -9,5 +9,5 @@ def home():
     return render_template('index.html', name=name, user_logged_in=user_logged_in)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
